@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a6 as t}from"./chunks/framework.DkFL-jqo.js";const o=JSON.parse('{"title":"Xpath解析","description":"","frontmatter":{},"headers":[],"relativePath":"爬虫/xpath解析.md","filePath":"爬虫/xpath解析.md"}'),h={name:"爬虫/xpath解析.md"},n=t("",28),l=[n];function p(k,e,E,r,d,g){return a(),i("div",null,l)}const F=s(h,[["render",p]]);export{o as __pageData,F as default};
