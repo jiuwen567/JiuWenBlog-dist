@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./chunks/framework.DkFL-jqo.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Python高级编程/多进程多线程携程/多进程.md","filePath":"Python高级编程/多进程多线程携程/多进程.md"}'),o={name:"Python高级编程/多进程多线程携程/多进程.md"};function n(r,s,c,_,p,d){return a(),e("div")}const f=t(o,[["render",n]]);export{m as __pageData,f as default};
