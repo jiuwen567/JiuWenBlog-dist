@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a6 as n}from"./chunks/framework.DkFL-jqo.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"爬虫/scrapy.md","filePath":"爬虫/scrapy.md"}'),p={name:"爬虫/scrapy.md"},l=n("",54),t=[l];function h(e,k,r,d,E,c){return a(),i("div",null,t)}const o=s(p,[["render",h]]);export{g as __pageData,o as default};
