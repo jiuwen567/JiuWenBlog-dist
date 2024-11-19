@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a6 as h}from"./chunks/framework.DkFL-jqo.js";const o=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"前端三件套/js/js入门.md","filePath":"前端三件套/js/js入门.md"}'),t={name:"前端三件套/js/js入门.md"},l=h("",35),n=[l];function k(p,e,E,d,r,g){return a(),i("div",null,n)}const c=s(t,[["render",k]]);export{o as __pageData,c as default};
