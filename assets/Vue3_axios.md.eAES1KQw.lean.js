@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a6 as n}from"./chunks/framework.DkFL-jqo.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Vue3/axios.md","filePath":"Vue3/axios.md"}'),p={name:"Vue3/axios.md"},h=n("",11),l=[h];function k(t,e,r,E,g,d){return a(),i("div",null,l)}const o=s(p,[["render",k]]);export{c as __pageData,o as default};

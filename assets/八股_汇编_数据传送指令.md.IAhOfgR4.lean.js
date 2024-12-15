@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,a6 as o}from"./chunks/framework.DkFL-jqo.js";const f=JSON.parse('{"title":"数据传送指令","description":"","frontmatter":{},"headers":[],"relativePath":"八股/汇编/数据传送指令.md","filePath":"八股/汇编/数据传送指令.md"}'),r={name:"八股/汇编/数据传送指令.md"},l=o("",8),i=[l];function n(s,_,c,d,h,u){return t(),e("div",null,i)}const m=a(r,[["render",n]]);export{f as __pageData,m as default};

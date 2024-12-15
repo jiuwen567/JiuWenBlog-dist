@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as e,a6 as l}from"./chunks/framework.DkFL-jqo.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"八股/操作系统/死锁.md","filePath":"八股/操作系统/死锁.md"}'),i={name:"八股/操作系统/死锁.md"},o=l("",59),r=[o];function h(d,n,c,s,p,u){return e(),t("div",null,r)}const b=a(i,[["render",h]]);export{g as __pageData,b as default};
