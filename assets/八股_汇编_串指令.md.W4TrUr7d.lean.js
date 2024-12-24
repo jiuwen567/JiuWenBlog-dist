@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as l,a6 as n}from"./chunks/framework.DkFL-jqo.js";const I=JSON.parse('{"title":"串指令的通用规则","description":"","frontmatter":{},"headers":[],"relativePath":"八股/汇编/串指令.md","filePath":"八股/汇编/串指令.md"}'),i={name:"八股/汇编/串指令.md"},p=n("",15),e=[p];function t(S,c,o,D,d,h){return l(),s("div",null,e)}const u=a(i,[["render",t]]);export{I as __pageData,u as default};

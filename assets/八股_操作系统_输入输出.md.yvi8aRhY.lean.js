@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.DkFL-jqo.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"八股/操作系统/输入输出.md","filePath":"八股/操作系统/输入输出.md"}'),r={name:"八股/操作系统/输入输出.md"};function o(s,c,n,_,p,d){return a(),t("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};
