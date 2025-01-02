@@ -1,4 +1,4 @@
-import{_ as s,c as n,o as a,a6 as p}from"./chunks/framework.DkFL-jqo.js";const E=JSON.parse('{"title":"顺序程序设计","description":"","frontmatter":{},"headers":[],"relativePath":"八股/汇编/程序设计综合.md","filePath":"八股/汇编/程序设计综合.md"}'),l={name:"八股/汇编/程序设计综合.md"},e=p(`<h1 id="顺序程序设计" tabindex="-1">顺序程序设计 <a class="header-anchor" href="#顺序程序设计" aria-label="Permalink to &quot;顺序程序设计&quot;">​</a></h1><h2 id="_1" tabindex="-1">1 <a class="header-anchor" href="#_1" aria-label="Permalink to &quot;1&quot;">​</a></h2><blockquote><p>试编制一程序(不考虑以 上情况)，求出下列公式中的Z值，并存放在 RESULT单元中： Z=((X+Y)*8-X)/2。 其中X,Y的值分别存放在VARX,VARY单元中。</p></blockquote><div class="language-assembly vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">assembly</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>DATA SEGMENT USE16</span></span>
+import{_ as s,c as n,o as a,a6 as p}from"./chunks/framework.DkFL-jqo.js";const h=JSON.parse('{"title":"顺序程序设计","description":"","frontmatter":{},"headers":[],"relativePath":"八股/汇编/程序设计综合.md","filePath":"八股/汇编/程序设计综合.md"}'),l={name:"八股/汇编/程序设计综合.md"},e=p(`<h1 id="顺序程序设计" tabindex="-1">顺序程序设计 <a class="header-anchor" href="#顺序程序设计" aria-label="Permalink to &quot;顺序程序设计&quot;">​</a></h1><h2 id="_1" tabindex="-1">1 <a class="header-anchor" href="#_1" aria-label="Permalink to &quot;1&quot;">​</a></h2><blockquote><p>试编制一程序(不考虑以 上情况)，求出下列公式中的Z值，并存放在 RESULT单元中： Z=((X+Y)*8-X)/2。 其中X,Y的值分别存放在VARX,VARY单元中。</p></blockquote><div class="language-assembly vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">assembly</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>DATA SEGMENT USE16</span></span>
 <span class="line"><span>     VARX DW 6</span></span>
 <span class="line"><span>     VARY DW 7</span></span>
 <span class="line"><span>     RESULT DW ?</span></span>
@@ -134,4 +134,33 @@ import{_ as s,c as n,o as a,a6 as p}from"./chunks/framework.DkFL-jqo.js";const E
 <span class="line"><span>cmp dl,&#39;z&#39;</span></span>
 <span class="line"><span>ja exit ;大于小写字母z，也不需要处理</span></span>
 <span class="line"><span>sub dl,20h ; 是小写字母，则转换为大写</span></span>
-<span class="line"><span>exit:</span></span></code></pre></div><ul><li>方法1（加减指令）：“ADD DL,20H” “SUB DL,20H”</li><li>方法2（逻辑指令）：“OR DL,20H” “AND DL,0DFH”</li><li>大小写互换（异或指令）：“XOR DL,20H”</li></ul><h1 id="循环程序设计" tabindex="-1">循环程序设计 <a class="header-anchor" href="#循环程序设计" aria-label="Permalink to &quot;循环程序设计&quot;">​</a></h1><h2 id="_1-3" tabindex="-1">1 <a class="header-anchor" href="#_1-3" aria-label="Permalink to &quot;1&quot;">​</a></h2><blockquote><p>求最大数。假设从内存的BUF单元开始存 有一个以ASCII码方式表示的字符串，求其中 的最大数(即ASCII码最大的字符的ASCII值)， 显示到屏幕上。</p></blockquote>`,21),i=[e];function c(t,o,A,d,D,h){return a(),n("div",null,i)}const r=s(l,[["render",c]]);export{E as __pageData,r as default};
+<span class="line"><span>exit:</span></span></code></pre></div><ul><li>方法1（加减指令）：“ADD DL,20H” “SUB DL,20H”</li><li>方法2（逻辑指令）：“OR DL,20H” “AND DL,0DFH”</li><li>大小写互换（异或指令）：“XOR DL,20H”</li></ul><h1 id="循环程序设计" tabindex="-1">循环程序设计 <a class="header-anchor" href="#循环程序设计" aria-label="Permalink to &quot;循环程序设计&quot;">​</a></h1><h2 id="_1-3" tabindex="-1">1 <a class="header-anchor" href="#_1-3" aria-label="Permalink to &quot;1&quot;">​</a></h2><blockquote><p>求最大数。假设从内存的BUF单元开始存 有一个以ASCII码方式表示的字符串，求其中 的最大数(即ASCII码最大的字符的ASCII值)， 显示到屏幕上。</p></blockquote><div class="language-assembly vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">assembly</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>DATA SEGMENT</span></span>
+<span class="line"><span>    BUFFER DB &#39;1234567QWERqwez&#39;</span></span>
+<span class="line"><span>    COUNT EQU $-BUFFER</span></span>
+<span class="line"><span>    MES DB &#39;MAX=&#39;,?,0DH,0AH,&#39;$&#39;</span></span>
+<span class="line"><span>DATA ENDS</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>CODE SEGMENT</span></span>
+<span class="line"><span>    ASSUME DS:CODE,CS:CODE</span></span>
+<span class="line"><span>    START:</span></span>
+<span class="line"><span>        MOV AX,DATA</span></span>
+<span class="line"><span>        MOV DS,AX</span></span>
+<span class="line"><span>        LEA SI,BUFFER</span></span>
+<span class="line"><span>        MOV AL,[SI] ;最大数假设为第一个</span></span>
+<span class="line"><span>        MOV CX,COUNT-1</span></span>
+<span class="line"><span>    NEXT:</span></span>
+<span class="line"><span>        INC SI</span></span>
+<span class="line"><span>        CMP AL,[SI]</span></span>
+<span class="line"><span>        JNC LAST</span></span>
+<span class="line"><span>        MOV AL,[SI]</span></span>
+<span class="line"><span>    LAST:</span></span>
+<span class="line"><span>        LOOP NEXT</span></span>
+<span class="line"><span>    LEA SI,MES</span></span>
+<span class="line"><span>    MOV BYTE PTR[SI+4],AL</span></span>
+<span class="line"><span>    LEA DX,MES</span></span>
+<span class="line"><span>    MOV AH,9</span></span>
+<span class="line"><span>    INT 21H</span></span>
+<span class="line"><span>    MOV AH,4CH</span></span>
+<span class="line"><span>    INT 21H</span></span>
+<span class="line"><span>CODE ENDS</span></span>
+<span class="line"><span>END START</span></span></code></pre></div>`,22),i=[e];function c(t,o,A,S,d,D){return a(),n("div",null,i)}const T=s(l,[["render",c]]);export{h as __pageData,T as default};
