@@ -1,0 +1,1 @@
+import{_ as a,c as l,o as i,a6 as e}from"./chunks/framework.DkFL-jqo.js";const q=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"八股/汇编/前置知识.md","filePath":"八股/汇编/前置知识.md"}'),o={name:"八股/汇编/前置知识.md"},p=e("",34),t=[p];function r(h,n,d,c,u,s){return i(),l("div",null,t)}const _=a(o,[["render",r]]);export{q as __pageData,_ as default};
