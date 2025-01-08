@@ -1,1 +1,0 @@
-import{_ as t,c as l,o as d,a6 as a}from"./chunks/framework.DkFL-jqo.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"八股/操作系统/存储管理.md","filePath":"八股/操作系统/存储管理.md"}'),i={name:"八股/操作系统/存储管理.md"},e=a("",97),h=[e];function o(r,u,c,p,n,s){return d(),l("div",null,h)}const q=t(i,[["render",o]]);export{m as __pageData,q as default};

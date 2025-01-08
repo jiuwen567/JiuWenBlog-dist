@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as i,a6 as l}from"./chunks/framework.DkFL-jqo.js";const g=JSON.parse('{"title":"文件","description":"","frontmatter":{},"headers":[],"relativePath":"八股/操作系统/文件系统.md","filePath":"八股/操作系统/文件系统.md"}'),t={name:"八股/操作系统/文件系统.md"},o=l("",71),r=[o];function h(n,s,c,p,m,u){return i(),e("div",null,r)}const b=a(t,[["render",h]]);export{g as __pageData,b as default};
