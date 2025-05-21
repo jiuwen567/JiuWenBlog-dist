@@ -1,0 +1,1 @@
+import{_ as l,c as e,o as i,a6 as t}from"./chunks/framework.DkFL-jqo.js";const h=JSON.parse('{"title":"1","description":"","frontmatter":{},"headers":[],"relativePath":"前端三件套/面试/基本题.md","filePath":"前端三件套/面试/基本题.md"}'),a={name:"前端三件套/面试/基本题.md"},o=t("",3),_=[o];function n(r,c,s,d,u,p){return i(),e("div",null,_)}const f=l(a,[["render",n]]);export{h as __pageData,f as default};

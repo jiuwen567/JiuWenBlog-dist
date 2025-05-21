@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a6 as t}from"./chunks/framework.DkFL-jqo.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"前端三件套/CSS/属性.md","filePath":"前端三件套/CSS/属性.md"}'),n={name:"前端三件套/CSS/属性.md"},l=t("",19),h=[l];function e(k,p,d,E,r,o){return a(),i("div",null,h)}const y=s(n,[["render",e]]);export{c as __pageData,y as default};

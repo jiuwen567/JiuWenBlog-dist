@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as t,a6 as r}from"./chunks/framework.DkFL-jqo.js";const _=JSON.parse('{"title":"性能指标","description":"","frontmatter":{},"headers":[],"relativePath":"性能测试/基础概念.md","filePath":"性能测试/基础概念.md"}'),o={name:"性能测试/基础概念.md"},s=r("",24),n=[s];function a(e,u,g,h,c,d){return t(),i("div",null,n)}const p=l(o,[["render",a]]);export{_ as __pageData,p as default};

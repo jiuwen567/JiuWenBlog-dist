@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a6 as n}from"./chunks/framework.DkFL-jqo.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"前端三件套/js/高阶函数.md","filePath":"前端三件套/js/高阶函数.md"}'),l={name:"前端三件套/js/高阶函数.md"},h=n("",10),k=[h];function t(p,e,E,r,d,g){return a(),i("div",null,k)}const o=s(l,[["render",t]]);export{c as __pageData,o as default};

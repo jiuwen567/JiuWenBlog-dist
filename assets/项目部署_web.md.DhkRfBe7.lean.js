@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a6 as i}from"./chunks/framework.DkFL-jqo.js";const F=JSON.parse('{"title":"一、docker 部署django","description":"","frontmatter":{},"headers":[],"relativePath":"项目部署/web.md","filePath":"项目部署/web.md"}'),p={name:"项目部署/web.md"},l=i("",34),e=[l];function t(h,k,d,r,c,o){return n(),a("div",null,e)}const u=s(p,[["render",t]]);export{F as __pageData,u as default};
